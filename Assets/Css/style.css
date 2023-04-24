@@ -1,0 +1,192 @@
+.slider {
+  width: 100%;
+  max-width: 800px;
+  height: 350px;
+  position: relative;
+  overflow: hidden;
+}
+
+.slide {
+  width: 100%;
+  max-width: 800px;
+  height: 350px;
+  position: absolute;
+  transition: all 0.5s;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.btn {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  border: none;
+  border-radius: 50%;
+  z-index: 10px;
+  cursor: pointer;
+  background-color: #fff;
+  font-size: 18px;
+  font-family: verdana bold;
+}
+
+.btn:active {
+  transform: scale(1.1);
+}
+
+.btn-prev {
+  top: 45%;
+  left: 2%;
+}
+
+.btn-next {
+  top: 45%;
+  right: 2%;
+}
+
+.btn__carousel {
+  background-color: #4F3DAB;
+  border-radius: 5px;
+  height: 30px;
+  font-family: verdana bold;
+  margin-top: 15px;
+  width: max-content;
+}
+
+.container__navbar {
+  background-color: #7EF57D;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: #7EF57D;
+  margin: 0%;
+  padding: 0%;
+  height: 80px;
+}
+
+.navbar__lista {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 80%;
+  padding-top: 20px;
+}
+
+.navbar__carrito {
+  padding-left: 10%;
+  margin-right: 20px;
+  padding-top: 20px;
+}
+
+.navbar__item {
+  font-size: 20px;
+}
+
+.carousel {
+  padding-left: 25%;
+  padding-right: 25%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tituloUno {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding-left: 25%;
+  padding-right: 25%;
+  font-size: 20px;
+}
+
+.ofertas {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.tituloDos {
+  padding-left: 5%;
+  height: 5%;
+  font-size: 18px;
+}
+
+.ofertas__list {
+  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 0;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.ofertas__item {
+  width: 20%;
+}
+
+.ofertas__img {
+  max-width: 60%;
+  padding: 10px;
+}
+
+.ofertas__contenedor-item {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.btn__item {
+  background-color: #4F3DAB;
+  border-radius: 5px;
+  height: 30px;
+  font-family: verdana bold;
+}
+
+.footer__icons {
+  display: flex;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  height: 80px;
+  font-size: 20px;
+  margin-left: 20px;
+  margin-bottom: 5%;
+}
+footer a {
+  height: 20px;
+  width: 20px;
+  padding: 12px;
+  font-size: xx-large;
+}
+
+body {
+  background-color: #694CF5;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0%;
+  height: 100%;
+}
+
+html {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+/*# sourceMappingURL=style.css.map */

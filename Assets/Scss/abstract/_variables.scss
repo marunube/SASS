@@ -1,0 +1,16 @@
+$violeta: #694CF5 ;
+$morado: #4F3DAB ;
+$verde: #7EF57D ;
+$amarillo: #FAE85A ;
+$font-bold: verdana bold ;
+$font:  Verdana, Geneva, Tahoma, sans-serif ;
+
+
+
+@mixin style_btn {
+    background-color: $morado ;
+    border-radius: 5px;
+    height: 30px;
+    font-family: $font-bold;
+ 
+}
